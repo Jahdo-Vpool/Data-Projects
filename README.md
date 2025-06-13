@@ -1,6 +1,7 @@
-# 👋 Hi, I'm [Your Name]
+# My name is Jahdo 
 
-Welcome to my data science portfolio! I'm passionate about using data to solve real-world problems in education, finance, energy, and healthcare. This GitHub highlights projects where I’ve explored everything from building predictive models to creating dashboards that tell powerful data stories.
+I hope to find solutions through data that can create a genuine impact. This GitHub page documents my journey as I learn, build, and hone my skills to address meaningful challenges with data. Each project marks a significant step in my mission to convert data into impactful solutions and to evolve into a thoughtful, well-rounded data professional.
+
 
 ---
 
@@ -8,7 +9,7 @@ Welcome to my data science portfolio! I'm passionate about using data to solve r
 
 | Project | Description | Tools Used | Link |
 |--------|-------------|------------|------|
-| **Name** | skills | [Link Name](https://www.linkedin.com/in/jahdo-vanterpool/) |
+| **Name** | Description | tools | [Link Name](link) |
 
 
 ---
@@ -16,22 +17,21 @@ Welcome to my data science portfolio! I'm passionate about using data to solve r
 ## 🛠️ Skills
 
 **Languages & Tools:**  
-`Python`, `SQL`, `Excel`, `Tableau`, `Power BI`, `Git`, `Streamlit`, `HTML/CSS`  
+`Python`, `SQL`, `Excel`, `Tableau`, `Power BI`, `Git`, `Streamlit`
 
 **Libraries:**  
-`pandas`, `NumPy`, `scikit-learn`, `matplotlib`, `seaborn`, `nltk`, `transformers`
+`pandas`, `NumPy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 **Databases:**  
-`MySQL`, `PostgreSQL`, `SQLite`
+`MySQL`, `PostgreSQL`
 
 ---
 
 ## 📫 Connect with Me
 
-- **LinkedIn:** [Jahdo]([#](https://www.linkedin.com/in/jahdo-vanterpool/))
-- **Website/Portfolio:** [Your Website](#)
-- **Email:** [youremail@example.com](mailto:youremail@example.com)
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/jahdo-vanterpool/)
+- **Email:** [My Email](jahdovpool@gmail.com)
 
 ---
 
-⭐ _Thanks for visiting! Explore, fork, and feel free to reach out if you're interested in collaborating!_
+⭐ _Thanks for visiting! Explore and feel free to reach out if you're interested in collaborating!_
