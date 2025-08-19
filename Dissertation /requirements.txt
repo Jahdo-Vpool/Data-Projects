@@ -1,0 +1,20 @@
+# Core libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Sentiment analysis
+nltk
+vaderSentiment
+
+# Financial data and modeling
+yfinance
+arch  # for GARCH modeling
+
+# News API and requests
+requests
+
+# Jupyter notebook
+jupyter
+
