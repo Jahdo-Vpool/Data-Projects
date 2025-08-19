@@ -45,6 +45,6 @@ All components are written in Python, follow PEP 8 guidelines, and are version-c
 ## Technologies
 
 - `Python 3.11`
-- `yfinance`, `requests`, `pandas`, `nltk`, `vaderSentiment`, `arch`, `statsmodels`, `matplotlib`, `seaborn`
+- `yfinance`, `requests`, `pandas`, `nltk`, `vaderSentiment`, `arch`, `statsmodels`, `matplotlib`, `seaborn`, `logging`, `pathlib`
 
 ---
