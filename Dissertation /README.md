@@ -26,18 +26,37 @@ The artefact demonstrates how Natural Language Processing (NLP), econometric mod
 
 ---
 
-## Artefact Structure
+## IT Artefact Overview
 
-The artefact consists of the following core modules:
+This project implements a modular Python-based artefact designed to:
 
-| Module | Description |
-|--------|-------------|
-| `collect_data.py` | Gathers historical ETF price data and financial news headlines. |
-| `sentiment_analysis.py` | Scores news sentiment using VADER and aggregates daily values. |
-| `volatility_model.py` | Estimates volatility using rolling standard deviation and GARCH. |
-| `regression_analysis.py` | Tests statistical relationships between sentiment and volatility. |
-| `backtest.py` | Simulates a simple sentiment-driven trading strategy. |
+- Collect and store historical ETF price data and financial news  
+- Apply sentiment analysis to daily headlines using VADER  
+- Model price volatility using rolling standard deviation and GARCH  
+- Evaluate sentiment-volatility relationships using regression analysis  
+- Backtest a rules-based trading strategy  
+- Log all activities to ensure transparency and reproducibility  
 
+---
+
+### 🗂️ Source Modules
+
+| Module                 | Purpose                                                                 |
+|------------------------|-------------------------------------------------------------------------|
+| `logger.py`            | Reusable logger that writes structured logs to the `/logs/` folder      |
+| `collect_data.py`      | Fetches ETF prices and financial news articles from public APIs         |
+| `sentiment_analysis.py`| Applies sentiment scoring using VADER                                   |
+| `volatility_model.py`  | Models volatility using rolling std and GARCH                           |
+| `regression_analysis.py` | Analyzes sentiment-volatility relationships via regression             |
+| `backtest.py`          | Simulates a trading strategy based on sentiment signals                 |
+
+---
+
+
+## Logging
+This project uses a reusable logging utility (`logger.py`) that stores log output in the `logs/` folder.
+Logs include timestamps, severity level, and message content to support debugging and traceability.
+how would hyjh
 All components are written in Python, follow PEP 8 guidelines, and are version-controlled using Git.
 
 ---
