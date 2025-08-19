@@ -52,7 +52,6 @@ This project implements a modular Python-based artefact designed to:
 
 ---
 
-
 ## Logging
 This project uses a reusable logging utility (`logger.py`) that stores log output in the `logs/` folder.
 Logs include timestamps, severity level, and message content to support debugging and traceability.
