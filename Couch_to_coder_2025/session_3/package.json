@@ -1,0 +1,25 @@
+{
+  "name": "data-projects",
+  "version": "1.0.0",
+  "description": "I hope to find solutions through data that can create a genuine impact. This GitHub page documents my journey as I learn, build, and hone my skills to address meaningful challenges with data. Each project marks a significant step in my mission to convert data into impactful solutions and to evolve into a thoughtful, well-rounded data professional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahdo-Vpool/Data-Projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jahdo-Vpool/Data-Projects/issues"
+  },
+  "homepage": "https://github.com/Jahdo-Vpool/Data-Projects#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
