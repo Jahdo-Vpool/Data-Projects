@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Anguillian Pigeon Pea & Rice with Saltfish",
+    "island": "anguilla",
+    "cuisine": "caribbean",
+    "subcuisine": "anguillian",
+    "time": "1 hr 10 min",
+    "ingredients": ["pigeon peas", "rice", "saltfish", "onions", "seasonings"],
+    "steps": ["Cook pigeon peas", "Prepare saltfish", "Combine with rice", "Serve"]
+  },
+  {
+    "name": "Ackee and Saltfish",
+    "island": "jamaica",
+    "cuisine": "caribbean",
+    "subcuisine": "jamaican",
+    "time": "40 minutes",
+    "ingredients": ["ackee", "salt cod", "onion", "scotch bonnet", "tomato", "thyme", "black pepper", "oil"],
+    "steps": ["Desalt and flake saltfish", "Sauté aromatics", "Fold in ackee gently", "Season and serve"]
+  },
+  {
+    "name": "Doubles",
+    "island": "trinidad and tobago",
+    "cuisine": "caribbean",
+    "subcuisine": "trinbagonian",
+    "time": "1 hour",
+    "ingredients": ["bara dough", "curried channa", "tamarind chutney", "pepper sauce", "cucumber"],
+    "steps": ["Fry bara", "Cook channa curry", "Assemble with chutneys"]
+  },
+  {
+    "name": "Oil Down",
+    "island": "grenada",
+    "cuisine": "caribbean",
+    "subcuisine": "grenadian",
+    "time": "1 hr 30 min",
+    "ingredients": ["breadfruit", "callaloo", "coconut milk", "pigtail or chicken", "turmeric", "thyme"],
+    "steps": ["Layer pot", "Simmer in coconut milk till absorbed"]
+  },
+  {
+    "name": "Cou-Cou and Flying Fish",
+    "island": "barbados",
+    "cuisine": "caribbean",
+    "subcuisine": "bajan",
+    "time": "1 hour",
+    "ingredients": ["cornmeal", "okra", "butter", "flying fish", "lime", "spices"],
+    "steps": ["Make cou-cou with okra", "Season and cook fish", "Serve together"]
+  },
+  {
+    "name": "Green Fig and Saltfish",
+    "island": "saint lucia",
+    "cuisine": "caribbean",
+    "subcuisine": "saint lucian",
+    "time": "45 minutes",
+    "ingredients": ["green bananas", "salt cod", "onion", "peppers", "garlic", "oil"],
+    "steps": ["Boil green bananas", "Sauté saltfish with seasonings", "Serve"]
+  },
+  {
+    "name": "Fungee and Pepperpot",
+    "island": "antigua and barbuda",
+    "cuisine": "caribbean",
+    "subcuisine": "antiguan",
+    "time": "1 hour",
+    "ingredients": ["cornmeal fungee", "okra", "pepperpot stew", "spinach/callaloo", "meat or veg"],
+    "steps": ["Cook fungee", "Simmer pepperpot", "Plate"]
+  },
+  {
+    "name": "Griot with Pikliz",
+    "island": "haiti",
+    "cuisine": "caribbean",
+    "subcuisine": "haitian",
+    "time": "2 hours",
+    "ingredients": ["pork shoulder", "sour orange", "scotch bonnet", "garlic", "pikliz"],
+    "steps": ["Marinate and braise pork", "Fry till crisp", "Serve with pikliz"]
+  },
+  {
+    "name": "Ropa Vieja",
+    "island": "cuba",
+    "cuisine": "caribbean",
+    "subcuisine": "cuban",
+    "time": "2 hours",
+    "ingredients": ["flank steak", "bell peppers", "tomato", "olive oil", "olives", "spices"],
+    "steps": ["Braise beef", "Shred and simmer in sauce"]
+  },
+  {
+    "name": "Mofongo",
+    "island": "puerto rico",
+    "cuisine": "caribbean",
+    "subcuisine": "puerto rican",
+    "time": "50 minutes",
+    "ingredients": ["green plantains", "garlic", "pork cracklings", "broth", "butter/oil"],
+    "steps": ["Fry plantains", "Mash with garlic & chicharrón", "Moisten with broth"]
+  },
+  {
+    "name": "La Bandera",
+    "island": "dominican republic",
+    "cuisine": "caribbean",
+    "subcuisine": "dominican",
+    "time": "1 hour",
+    "ingredients": ["rice", "stewed beans", "stewed chicken", "salad"],
+    "steps": ["Cook components", "Serve together as 'the flag'"]
+  },
+  {
+    "name": "Roasted Breadfruit & Fried Jackfish",
+    "island": "saint vincent and the grenadines",
+    "cuisine": "caribbean",
+    "subcuisine": "vincentian",
+    "time": "1 hour",
+    "ingredients": ["breadfruit", "jackfish", "seasonings", "oil"],
+    "steps": ["Roast breadfruit", "Season & fry fish", "Serve"]
+  },
+  {
+    "name": "Keshi Yena",
+    "island": "aruba",
+    "cuisine": "caribbean",
+    "subcuisine": "aruban",
+    "time": "1 hr 15 min",
+    "ingredients": ["edam cheese shell", "seasoned chicken/beef", "olives", "raisins"],
+    "steps": ["Stuff cheese with filling", "Bake until melty"]
+  },
+  {
+    "name": "Cracked Conch with Peas n’ Rice",
+    "island": "bahamas",
+    "cuisine": "caribbean",
+    "subcuisine": "bahamian",
+    "time": "1 hour",
+    "ingredients": ["conch", "flour", "egg", "breadcrumbs", "peas", "rice", "onion", "pepper"],
+    "steps": ["Tenderize and bread conch", "Fry until golden", "Cook peas and rice", "Serve together"]
+  },
+  {
+    "name": "Goat Water",
+    "island": "montserrat",
+    "cuisine": "caribbean",
+    "subcuisine": "montserratian",
+    "time": "2 hours",
+    "ingredients": ["goat meat", "onions", "thyme", "marjoram", "pepper", "flour dumplings"],
+    "steps": ["Season and marinate goat", "Simmer with herbs", "Add dumplings", "Cook until tender"]
+  },
+  {
+    "name": "Callaloo Soup",
+    "island": "dominica",
+    "cuisine": "caribbean",
+    "subcuisine": "dominican (commonwealth)",
+    "time": "1 hr 15 min",
+    "ingredients": ["callaloo leaves", "okra", "pumpkin", "meat or crab", "spices"],
+    "steps": ["Prepare callaloo leaves", "Simmer with other ingredients", "Blend slightly", "Serve hot"]
+  },
+  {
+    "name": "Stewed Saltfish with Dumplings",
+    "island": "saint kitts and nevis",
+    "cuisine": "caribbean",
+    "subcuisine": "kittitian/nevisian",
+    "time": "1 hour",
+    "ingredients": ["saltfish", "flour dumplings", "ground provisions", "onion", "peppers"],
+    "steps": ["Boil and flake saltfish", "Prepare dumplings and provisions", "Combine and stew", "Serve"]
+  },
+  {
+    "name": "Fungee and Pepperpot",
+    "island": "antigua and barbuda",
+    "cuisine": "caribbean",
+    "subcuisine": "antiguan",
+    "time": "1 hour",
+    "ingredients": ["cornmeal fungee", "okra", "pepperpot stew", "meat or veg"],
+    "steps": ["Cook fungee", "Simmer pepperpot", "Serve together"]
+  },
+  {
+    "name": "Rice and Beans with Stew Chicken",
+    "island": "belize",
+    "cuisine": "caribbean",
+    "subcuisine": "belizean",
+    "time": "1 hr 20 min",
+    "ingredients": ["rice", "red kidney beans", "coconut milk", "chicken", "seasonings"],
+    "steps": ["Cook beans with coconut milk", "Prepare stew chicken", "Serve with rice"]
+  },
+  {
+    "name": "Pepperpot",
+    "island": "guyana",
+    "cuisine": "caribbean",
+    "subcuisine": "guyanese",
+    "time": "3 hours",
+    "ingredients": ["beef", "cassareep", "wiri wiri peppers", "spices"],
+    "steps": ["Marinate beef in cassareep", "Slow cook with spices", "Serve with bread"]
+  },
+  {
+    "name": "Pom",
+    "island": "suriname",
+    "cuisine": "caribbean",
+    "subcuisine": "surinamese",
+    "time": "2 hr 30 min",
+    "ingredients": ["pomtajer root", "chicken", "citrus juice", "herbs"],
+    "steps": ["Grate pomtajer", "Layer with chicken and seasoning", "Bake until golden"]
+  },
+  {
+    "name": "Bouillon d’awara",
+    "island": "french guiana",
+    "cuisine": "caribbean",
+    "subcuisine": "french guianese",
+    "time": "3 hours",
+    "ingredients": ["awara fruit pulp", "meats", "fish", "vegetables", "spices"],
+    "steps": ["Prepare awara pulp", "Simmer with meats and vegetables", "Serve hot"]
+  },
+  {
+    "name": "Conch & Dumplings",
+    "island": "saint martin (french)",
+    "cuisine": "caribbean",
+    "subcuisine": "st. martin",
+    "time": "1 hr 30 min",
+    "ingredients": ["conch", "flour dumplings", "vegetables", "spices"],
+    "steps": ["Tenderize conch", "Make dumplings", "Simmer together in stew"]
+  },
+  {
+    "name": "Johnny Cake with Saltfish",
+    "island": "sint maarten (dutch)",
+    "cuisine": "caribbean",
+    "subcuisine": "st. maarten",
+    "time": "1 hour",
+    "ingredients": ["flour", "baking powder", "oil", "saltfish", "spices"],
+    "steps": ["Mix dough and fry johnny cakes", "Prepare saltfish", "Serve together"]
+  },
+  {
+    "name": "Conch Ceviche",
+    "island": "turks and caicos islands",
+    "cuisine": "caribbean",
+    "subcuisine": "tci",
+    "time": "30 minutes",
+    "ingredients": ["conch", "lime juice", "onions", "peppers", "tomatoes"],
+    "steps": ["Dice conch", "Marinate in citrus", "Mix with vegetables", "Serve chilled"]
+  },
+  {
+    "name": "Turtle Stew",
+    "island": "cayman islands",
+    "cuisine": "caribbean",
+    "subcuisine": "caymanian",
+    "time": "2 hours",
+    "ingredients": ["turtle meat", "onions", "thyme", "seasonings"],
+    "steps": ["Season turtle meat", "Simmer until tender", "Serve with rice"]
+  },
+  {
+    "name": "Codfish Breakfast",
+    "island": "bermuda",
+    "cuisine": "caribbean",
+    "subcuisine": "bermudian",
+    "time": "45 minutes",
+    "ingredients": ["salt cod", "potatoes", "bananas", "avocado", "onion sauce"],
+    "steps": ["Boil cod and potatoes", "Prepare onion sauce", "Serve with bananas and avocado"]
+  },
+  {
+    "name": "Colombo de Poulet",
+    "island": "guadeloupe",
+    "cuisine": "caribbean",
+    "subcuisine": "guadeloupean",
+    "time": "1 hr 30 min",
+    "ingredients": ["chicken", "colombo spice mix", "vegetables", "coconut milk"],
+    "steps": ["Season and brown chicken", "Add spices and vegetables", "Simmer with coconut milk"]
+  },
+  {
+    "name": "Accras de Morue",
+    "island": "martinique",
+    "cuisine": "caribbean",
+    "subcuisine": "martiniquais",
+    "time": "1 hour",
+    "ingredients": ["salt cod", "flour", "garlic", "parsley", "spices"],
+    "steps": ["Mix cod batter", "Deep fry until golden", "Serve hot"]
+  },
+  {
+    "name": "Curry Goat",
+    "island": "sint eustatius",
+    "cuisine": "caribbean",
+    "subcuisine": "statian",
+    "time": "1 hr 45 min",
+    "ingredients": ["goat meat", "curry powder", "onions", "garlic", "thyme"],
+    "steps": ["Season goat", "Cook with curry and aromatics", "Simmer until tender"]
+  },
+  {
+    "name": "Goat Stew (Stoba Kabritu)",
+    "island": "curaçao",
+    "cuisine": "caribbean",
+    "subcuisine": "curaçaoan",
+    "time": "2 hours",
+    "ingredients": ["goat meat", "onions", "tomatoes", "paprika", "herbs"],
+    "steps": ["Brown goat meat", "Add vegetables and spices", "Simmer until tender"]
+  },
+  {
+    "name": "Saba Lobster",
+    "island": "saba",
+    "cuisine": "caribbean",
+    "subcuisine": "sabian",
+    "time": "1 hour",
+    "ingredients": ["spiny lobster", "garlic", "butter", "herbs"],
+    "steps": ["Clean lobster", "Grill or bake with butter and herbs", "Serve hot"]
+  },
+  {
+    "name": "Kabritu Stoba",
+    "island": "bonaire",
+    "cuisine": "caribbean",
+    "subcuisine": "bonairean",
+    "time": "2 hours",
+    "ingredients": ["goat meat", "onions", "garlic", "tomatoes", "herbs"],
+    "steps": ["Season goat", "Brown with onions", "Simmer until tender"]
+  },
+  {
+    "name": "Fish Soup",
+    "island": "saint barthélemy",
+    "cuisine": "caribbean",
+    "subcuisine": "st. barts",
+    "time": "1 hour",
+    "ingredients": ["fish", "garlic", "onions", "herbs", "tomatoes"],
+    "steps": ["Simmer fish with herbs and vegetables", "Serve hot with bread"]
+  },
+  {
+    "name": "Kallaloo",
+    "island": "united states virgin islands",
+    "cuisine": "caribbean",
+    "subcuisine": "usvi",
+    "time": "1 hr 30 min",
+    "ingredients": ["callaloo greens", "okra", "meat or fish", "onions", "spices"],
+    "steps": ["Cook greens with okra and aromatics", "Add meat or fish", "Simmer until thick"]
+  }
+]
