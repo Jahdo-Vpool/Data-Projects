@@ -10,7 +10,7 @@ Help Flow Anguilla reduce customer churn by:
 ## Tools & Methods
 - Python (pandas, scikit-learn, SHAP, XGBoost)
 - Jupyter Notebooks
-- Optional: Streamlit dashboard for interactive use
+- Maybe?: Streamlit dashboard for interactive use
 
 ## Structure
 
