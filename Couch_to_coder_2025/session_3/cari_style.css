@@ -1,0 +1,49 @@
+/* General Page Styles */
+
+body {
+  font-family: "Poppins", sans-serif; /* Use a clean, modern sans-serif font for readability */
+  margin: 0; /* Remove default browser margin so layout fills the whole screen */
+  background-color: #fff8f0; /* Warm cream background to give a cozy, food-friendly feel */
+  color: #3b2f2f; /* Dark brown text (like coffee/chocolate) for warmth and contrast */
+}
+
+/* Header Styling */
+
+header {
+  background-color: #ff6f3c; /* Warm orange-red color to stimulate appetite */
+  color: white; /* White text for strong contrast against orange */
+  padding: 20px; /* Add spacing inside the header */
+  text-align: center; /* Center-align the header content */
+  position: sticky; /* Keep header visible when scrolling */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Make sure header stays above other page content */
+}
+
+/* Style for the main title inside the header */
+header h1 {
+  font-family: "Fredoka One", cursive; /* Playful, round font to feel friendly and fun */
+  font-size: 2.5rem; /* Large size to grab attention */
+  margin: 0; /* Remove default spacing around title */
+}
+
+/* Link Styling */
+
+a {
+  color: #d62828; /* Rich red to make links stand out and feel “edible” */
+  text-decoration: none; /* Remove underlines for a cleaner look */
+  font-weight: bold; /* Make links bold for emphasis */
+}
+
+a:hover {
+  color: rgb(250, 122, 36); /* Change to warm orange when hovered for interactivity */
+}
+
+/* Footer Styling */
+
+footer {
+  background-color: #ff6f3c; /* Same orange as header for consistency */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center footer content */
+  padding: 15px; /* Add spacing inside footer */
+  margin-top: auto; /* Push footer to bottom if layout allows */
+}

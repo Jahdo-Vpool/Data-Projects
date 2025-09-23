@@ -1,4 +1,5 @@
 //  Imports (Node.js modules)
+const cors = require("cors");
 
 // Express is a framework that makes it easier to build web servers in Node.js
 const express = require("express");
@@ -15,6 +16,8 @@ const path = require("path");
 
 // Create an Express app (this is our web server)
 const app = express();
+// enable CORS for all routes
+app.use(cors());
 
 // Port number our server will listen on (visit http://localhost:3000)
 const port = 3000;
@@ -53,7 +56,6 @@ app.get('/recipes', async (req, res) => {
     }
 });
 
-
 // ------------------------------------------------------------------------------------------------
 // GET /random
 
@@ -81,7 +83,7 @@ app.get("/random", async (req, res) => {
         // || "" means "if nothing was provided, use an empty string"
         // .toLowerCase() makes it case-insensitive ("Jamaica" = "jamaica")
         // .trim() removes extra spaces
-        const cuisine = (req.query.cuisine || "").toLowerCase().trim();
+        const cuisine = (req.query.cuiine || "").toLowerCase().trim();
         const island = (req.query.island || "").toLowerCase().trim();
         const subcuisine = (req.query.subcuisine || "").toLowerCase().trim();
 
