@@ -18,6 +18,7 @@ const path = require("path");
 const app = express();
 // enable CORS for all routes
 app.use(cors());
+app.use(express.json());
 
 // Port number our server will listen on (visit http://localhost:3000)
 const port = 3000;
@@ -83,7 +84,7 @@ app.get("/random", async (req, res) => {
         // || "" means "if nothing was provided, use an empty string"
         // .toLowerCase() makes it case-insensitive ("Jamaica" = "jamaica")
         // .trim() removes extra spaces
-        const cuisine = (req.query.cuiine || "").toLowerCase().trim();
+        const cuisine = (req.query.cuisine || "").toLowerCase().trim();
         const island = (req.query.island || "").toLowerCase().trim();
         const subcuisine = (req.query.subcuisine || "").toLowerCase().trim();
 
@@ -115,6 +116,21 @@ app.get("/random", async (req, res) => {
         console.error(err);
         res.status(500).json({ error: "Error selecting a random recipe" });
     }
+});
+
+app.post("/recipes", async (req, res) => {
+  const newRecipe = req.body;
+
+  // Just read the file — will crash if file doesn't exist
+  const data = await fs.readFile(recipesFilePath, "utf-8");
+
+  // Parse, add, and write
+  const recipes = JSON.parse(data);
+  recipes.push(newRecipe);
+
+  await fs.writeFile(recipesFilePath, JSON.stringify(recipes, null, 2), "utf-8");
+
+  res.send("Recipe added to the database!");
 });
 
 // ------------------------------------------------------------------------------------------------

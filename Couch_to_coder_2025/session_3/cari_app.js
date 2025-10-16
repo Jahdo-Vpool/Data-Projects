@@ -12,9 +12,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     nameTag.innerText = recipe.name;
     recipeContainer.appendChild(nameTag);
 
+    const islandTag = document.createElement("p");
+    islandTag.innerText = "Repping - " + recipe.island;
+    recipeContainer.appendChild(islandTag);
+
     const cuisineTag = document.createElement("p");
-    cuisineTag.innerText = "Repping - " + recipe.island;
+    cuisineTag.innerText = "Repping - " + recipe.cuisine;
     recipeContainer.appendChild(cuisineTag);
+
+    const subcuisineTag = document.createElement("p");
+    subcuisineTag.innerText = "Repping - " + recipe.subcuisine;
+    recipeContainer.appendChild(subcuisineTag);
 
     const timeTag = document.createElement("p");
     timeTag.innerText = recipe.time;
@@ -46,6 +54,29 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     recipeList.appendChild(recipeContainer);
   }
+
+  const recipeForm = document.querySelector("form");
+  recipeForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const newRecipe = {};
+
+    newRecipe.name = event.target.name.value;
+    newRecipe.island = event.target.island.value;
+    newRecipe.time = event.target.time.value;
+
+    const ingredientsText = event.target.ingredients.value;
+    newRecipe.ingredients = ingredientsText.split(/\r?\n/);
+
+    const stepsText = event.target.steps.value;
+    newRecipe.steps = stepsText.split(/\r?\n/);
+
+    fetch("http://localhost:3000/recipes", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json" },
+      body: JSON.stringify(newRecipe)
+    })
+  })
 });
 
 
